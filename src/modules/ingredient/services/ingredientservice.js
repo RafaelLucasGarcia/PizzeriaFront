@@ -4,7 +4,7 @@ import {BaseService} from '../../baseservice';
 
 export class IngredientService extends BaseService{
     constructor(http,resolveUrl){
-        super(http,resolveUrl,'ingredients');
+        super(http,resolveUrl,'pizzas');
     }
     getAll(){
         return this.http.get(
